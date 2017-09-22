@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableEurekaServer
 public class SpringCloundEurekaApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCloundEurekaApplication.class, args);
 	}
