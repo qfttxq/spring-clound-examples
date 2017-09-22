@@ -6,7 +6,6 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
-@Configuration
 @EnableEurekaServer
 public class SpringCloundEurekaApplication {
 	public static void main(String[] args) {
