@@ -12,6 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient("service1")//要调用的服务名
 public interface Service1FeignClient {
 
-    @RequestMapping("hi")
+    @RequestMapping("hi")//映射路径与被调用方保持一致，包括参数配置全部保持一致
     String hi(@RequestParam(value = "name",required = false) String name);
 }
